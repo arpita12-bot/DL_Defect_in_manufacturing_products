@@ -40,27 +40,7 @@ We will break down into several steps:<br>
 
 ## 📁 Project Structure
 ---
-DL_Defect_in_Manufacturing_Products/
-│
-├── 📄 README.md                     # Project overview, setup, and usage instructions
-├── 📄 requirements.txt              # Python dependencies
-│
-│
-│
-├── 📁 src/                          # Source code directory
-│   │
-│   ├── 📁 casting_data/             # Contains 'with defect' and 'without defect' subfolders
-│   │   ├── train/                   
-│   │   └── test/                    
-│   │
-│   ├── 📁 models/                   # Saved trained models  (.pth files)
-│   │
-│   ├── 📄 model.py                  # Contains CNN architecture (VGG-like model)
-│   ├── 📄 train_model.py            # Train VGG-like model
-│   ├── 📄 evaluate.py               # Evaluation & metrics computation script
-│
-└── 📁 notebooks/                    # (Optional) Jupyter notebooks for experiments
-    └── dl_defect_detection-images.ipynb
+<img width="526" height="320" alt="image" src="https://github.com/user-attachments/assets/f8f705ea-33d7-42ca-aafd-068d6311bd53" />
 
 ## 🧠 Model Information
 ---
@@ -127,6 +107,7 @@ pip install imutils scikit-learn matplotlib opencv-python
 ## 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
