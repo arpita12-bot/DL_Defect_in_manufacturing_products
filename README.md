@@ -46,8 +46,8 @@ We will break down into several steps:<br>
 
 ### 🧠 Model Information
 ---
-- **Architecture:** Transfer Learning using MobileNetV2 (pre-trained on ImageNet)
-- **Frameworks:** TensorFlow, Keras, OpenCV
+- **Architecture:** Transfer Learning using VGG-like model 
+- **Frameworks:** PyTorch
 - **Dataset:**  
   - 2165 images with mask  
   - 1930 images without mask
@@ -109,6 +109,7 @@ pip install imutils scikit-learn matplotlib opencv-python
 ### 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
