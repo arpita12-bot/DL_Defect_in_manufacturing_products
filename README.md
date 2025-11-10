@@ -49,13 +49,13 @@ We will break down into several steps:<br>
 - **Architecture:** Transfer Learning using VGG-like model 
 - **Frameworks:** PyTorch
 - **Dataset:**  
-  - 2165 images with mask  
-  - 1930 images without mask
+  - 3146 images without defective
+  - 4211 images defective
 - **Input size:** 224 × 224 × 3  
 - **Loss Function:** Binary Crossentropy  
 - **Optimizer:** Adam (`learning_rate=1e-4`)
 - **Epochs:** 20  
-- **Batch Size:** 32
+- **Batch Size:** 16
 
 
 ### 🚀 Training the Model
@@ -109,6 +109,7 @@ pip install imutils scikit-learn matplotlib opencv-python
 ### 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
