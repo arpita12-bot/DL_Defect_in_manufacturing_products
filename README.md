@@ -90,6 +90,9 @@ This will:
 - Classify each detected product as **Ok** ✅ or **defected** ❌  and show accuracy report.
 <img width="900" height="330" alt="image" src="https://github.com/user-attachments/assets/7dc4d177-4bc1-4298-95b3-f75976f40300" />
 
+![Uploading image.png…]()
+
+
 
 
 ### 🧩 Dependencies
@@ -122,6 +125,7 @@ Install required packages:
 ### 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
