@@ -5,7 +5,7 @@ Casting is a manufacturing process in which liquid material is poured into a mol
 
 Use CNN(CONVOLUTIONAL NEURAL NETWORK) deep learning model to predict defects on steel sheets and visually localize the defect using VGG-like model.
 
-##  ✅ Overview
+###  ✅ Overview
 This project aims to predict surface defects on steel sheets from images.
 * The goal is to build a deep learning model to detect casting faults using an image dataset from Kaggle.
 * The dataset contains ~10,500 images divided into two classes — faulty and okay parts.
@@ -27,7 +27,7 @@ The VGG-like CNN model is the best choice for this fault detection task because:
 3. It is simpler, faster, and easier to train compared to complex architectures.
 ---
 
-## ✅ Project description
+### ✅ Project description
 
 ---
 
@@ -108,6 +108,7 @@ pip install imutils scikit-learn matplotlib opencv-python
 ## 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
