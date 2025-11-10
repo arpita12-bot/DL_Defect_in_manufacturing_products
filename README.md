@@ -104,7 +104,7 @@ Install required packages:
 
 ---
 ### ⚖️ Sample Results
-| With Defect |
+| With Defect |<br>
 |------------|---------------|
 | ✅ 98.3% Accuracy 
 
@@ -118,6 +118,7 @@ Install required packages:
 ### 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
