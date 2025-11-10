@@ -105,13 +105,15 @@ Install required packages:
 
 ---
 ### 🚧 Future Improvements
-- Fine-tuning the MobileNetV2 base layers for higher accuracy.
+- Extend the model to detect defects from videos and real-time factory streams by enabling real-time factory monitoring through CCTV integration
 - Deploying the model to **Edge devices** or **Raspberry Pi**.
-- Integrating it with CCTV or live video monitoring systems.
-- 
+- Track model drift and performance metrics during live deployment.
+- Integrate PCA-based dimensionality reduction for faster and more efficient image processing.
+  
 ### 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
