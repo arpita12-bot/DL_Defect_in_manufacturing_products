@@ -12,11 +12,10 @@ This project aims to predict surface defects on steel sheets from images.
 * The goal is to build a deep learning model to detect casting faults using an image dataset from Kaggle.
 * The dataset contains ~10,500 images divided into two classes — faulty and okay parts.
 * The primary aim is image classification, with a focus on:
-* Achieving high accuracy with a simple CNN model.
-* Balancing model complexity (parameters) and training time.
+      Achieving high accuracy with a simple CNN model.
+      Balancing model complexity (parameters) and training time.
 1. What’s the simplest CNN model that can achieve high accuracy?<br>
-   + Initially considered models like ResNet models.<br>
-   + However, these models have millions of parameters (e.g., >20M), which is excessive for this dataset size.<br>
+   + Initially considered models like ResNet models. However, these models have millions of parameters (e.g., >20M), which is excessive for this dataset size.<br>
    + A simpler CNN architecture can achieve comparable performance with much fewer parameters. So we use CNN model like VGG model.
 3. How to balance accuracy and the number of parameters?<br>
    + The aim is to find a model that offers optimal performance while being computationally efficient.<br>
@@ -130,6 +129,7 @@ Install required packages:
 ---
 **Mohit Sharma(M25DE1001) and  Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
