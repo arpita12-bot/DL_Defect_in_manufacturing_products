@@ -4,7 +4,20 @@ Use CNN(CONVOLUTIONAL NEURAL NETWORK) deep learning model to predict defects on 
 
 ##  Overview
 This project aims to predict surface defects on steel sheets from images.
-
+* The goal is to build a deep learning model to detect casting faults using an image dataset from Kaggle.
+* The dataset contains ~10,500 images divided into two classes — faulty and okay parts.
+* The primary aim is image classification, with a focus on:
+* Achieving high accuracy with a simple CNN model.
+* Balancing model complexity (parameters) and training time.
+1. What’s the simplest CNN model that can achieve high accuracy?
+   Initially considered models like ResNet models.
+   However, these models have millions of parameters (e.g., >20M), which is excessive for this dataset size.
+   * A simpler CNN architecture can achieve comparable performance with much fewer parameters. So we use CNN model like VGG model.
+2. How to balance accuracy and the number of parameters?
+   The aim is to find a model that offers optimal performance while being computationally efficient.
+   Once a good model is found, explore reducing the number of parameters without a significant accuracy drop.
+   This helps understand the trade-off between model complexity and performance.
+4. 
 ---
 
 ## Project description
@@ -88,3 +101,4 @@ pip install imutils scikit-learn matplotlib opencv-python
 ## 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
