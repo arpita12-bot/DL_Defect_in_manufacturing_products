@@ -28,7 +28,14 @@ The VGG-like CNN model is the best choice for this fault detection task because:
 ---
 
 ### ✅ Project description
+let us automate the inspection process by training top-view images of a casted submersible pump impeller using custom method with Convolutional Neural Network (CNN) so that it can distinguish accurately between defect from the ok one.<br>
 
+We will break down into several steps:<br>
+1. Load the images and apply the data augmentation technique
+2. Visualize the images
+3. Training with validation: define the architecture, compile the model, model fitting and evaluation
+4. Testing on unseen images
+5. Make a conclusion
 ---
 
 ## 📁 Project Structure
@@ -108,6 +115,7 @@ pip install imutils scikit-learn matplotlib opencv-python
 ## 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
