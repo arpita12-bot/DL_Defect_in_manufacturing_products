@@ -1,4 +1,5 @@
 ﻿#  🎯 Detect-in-manufacturing-products-from-images
+ ---
 CASTING PRODUCT QUALITY INSPECTION:<br>
 
 Casting is a manufacturing process in which liquid material is poured into a mold to solidify. Many types of defects or unwanted irregularities can occur during this process. The industry has its quality inspection department to remove defective products from the production line, but this is very time consuming since it is carried out manually. Furthermore, there is a chance of misclassifying due to human error, causing rejection of the whole product order.<br>
@@ -6,6 +7,7 @@ Casting is a manufacturing process in which liquid material is poured into a mol
 Use CNN(CONVOLUTIONAL NEURAL NETWORK) deep learning model to predict defects on steel sheets and visually localize the defect using VGG-like model.
 
 ###  ✅ Overview
+---
 This project aims to predict surface defects on steel sheets from images.
 * The goal is to build a deep learning model to detect casting faults using an image dataset from Kaggle.
 * The dataset contains ~10,500 images divided into two classes — faulty and okay parts.
@@ -39,6 +41,7 @@ We will break down into several steps:<br>
 
 
 ## 📁 Project Structure
+---
 <img width="526" height="320" alt="image" src="https://github.com/user-attachments/assets/f8f705ea-33d7-42ca-aafd-068d6311bd53" />
 
 ## 🧠 Model Information
@@ -106,6 +109,7 @@ pip install imutils scikit-learn matplotlib opencv-python
 ## 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
