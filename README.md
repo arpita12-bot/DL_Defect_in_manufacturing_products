@@ -1,4 +1,4 @@
-﻿#  🎯 Detect-defect-in-manufacturing-products-from-images | CASTING PRODUCT QUALITY INSPECTION
+﻿#  🎯  CASTING PRODUCT QUALITY INSPECTION | Detect-defect-in-manufacturing-products-from-images
  ---
 CASTING PRODUCT QUALITY INSPECTION:<br>
 
@@ -130,6 +130,7 @@ Install required packages:
 ---
 **Mohit Sharma(M25DE1001) and  Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
