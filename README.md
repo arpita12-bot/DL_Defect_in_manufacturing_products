@@ -65,9 +65,12 @@ python train_model.py
 ```
 This will:
 1. Load and preprocess the dataset  
-2. Train Simple CNN VGG-like model head layers  
+2. Train Simple CNN VGG-like model head layers
+  <img width="951" height="310" alt="image" src="https://github.com/user-attachments/assets/09755c65-788e-4bd2-af56-ad16f351f68a" />
+
 3. Save the model as `best_model.pth`  
-4. Generate a training plot `plot.png`  
+4. Generate a training plot `plot.png`
+   
 
 ---
 
@@ -78,9 +81,9 @@ Once the model is trained, run:
 python evaluate.py
 ```
 This will:
-- Start the image processing
-- Detect defects using VGG like model on steel manufactured casted products
-- Classify each detected product as **Ok** ✅ or **defected** ❌  
+- Start the image processing.
+- Detect defects using VGG like model on steel manufactured casted products.
+- Classify each detected product as **Ok** ✅ or **defected** ❌  and show accuracy report.
 
 
 ### 🧩 Dependencies
@@ -105,7 +108,7 @@ Install required packages:
 
 ---
 ### 🚧 Future Improvements
-- Extend the model to detect defects from videos and real-time factory streams by enabling real-time factory monitoring through CCTV integration
+- Extend the model to detect defects from videos and real-time factory streams by enabling real-time factory monitoring through CCTV integration.
 - Deploying the model to **Edge devices** or **Raspberry Pi**.
 - Track model drift and performance metrics during live deployment.
 - Integrate PCA-based dimensionality reduction for faster and more efficient image processing.
@@ -113,6 +116,7 @@ Install required packages:
 ### 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
