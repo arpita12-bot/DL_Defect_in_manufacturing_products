@@ -67,6 +67,7 @@ This will:
 1. Load and preprocess the dataset  
 2. Train Simple CNN VGG-like model head layers
   <img width="497" height="281" alt="image" src="https://github.com/user-attachments/assets/1961555e-e9ad-41da-b2e0-3aa64bf66938" />
+
 3. Save the model as `best_model.pth`  
 4. Generate a training plot `plot.png`
    
@@ -115,6 +116,7 @@ Install required packages:
 ### 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
