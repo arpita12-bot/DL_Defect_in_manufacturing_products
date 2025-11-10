@@ -13,7 +13,7 @@ This project aims to predict surface defects on steel sheets from images.
    Initially considered models like ResNet models.
    However, these models have millions of parameters (e.g., >20M), which is excessive for this dataset size.
    * A simpler CNN architecture can achieve comparable performance with much fewer parameters. So we use CNN model like VGG model.
-2. How to balance accuracy and the number of parameters?
+3. How to balance accuracy and the number of parameters?
    The aim is to find a model that offers optimal performance while being computationally efficient.
    Once a good model is found, explore reducing the number of parameters without a significant accuracy drop.
    This helps understand the trade-off between model complexity and performance.
@@ -101,4 +101,5 @@ pip install imutils scikit-learn matplotlib opencv-python
 ## 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
