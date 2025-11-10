@@ -39,16 +39,28 @@ We will break down into several steps:<br>
 ---
 
 ## 📁 Project Structure
-Face-Mask-Detection/
+---
+DL_Defect_in_Manufacturing_Products/
 │
-├── train_mask_detector.py        # Train MobileNetV2 model
-├── detect_mask_video.py          # Real-time mask detection via webcam
-├── dataset/                      # Contains 'with_mask' and 'without_mask' subfolders
-│   ├── with_mask/
-│   └── without_mask/
-├── mask_detector.keras           # Trained model file (output)
-└── plot.png                      # Training accuracy/loss plot
-
+├── 📄 README.md                     # Project overview, setup, and usage instructions
+├── 📄 requirements.txt              # Python dependencies
+│
+│
+│
+├── 📁 src/                          # Source code directory
+│   │
+│   ├── 📁 casting_data/             # Contains 'with defect' and 'without defect' subfolders
+│   │   ├── train/                   
+│   │   └── test/                    
+│   │
+│   ├── 📁 models/                   # Saved trained models  (.pth files)
+│   │
+│   ├── 📄 model.py                  # Contains CNN architecture (VGG-like model)
+│   ├── 📄 train_model.py            # Train VGG-like model
+│   ├── 📄 evaluate.py               # Evaluation & metrics computation script
+│
+└── 📁 notebooks/                    # (Optional) Jupyter notebooks for experiments
+    └── dl_defect_detection-images.ipynb
 
 ## 🧠 Model Information
 ---
@@ -115,6 +127,7 @@ pip install imutils scikit-learn matplotlib opencv-python
 ## 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
