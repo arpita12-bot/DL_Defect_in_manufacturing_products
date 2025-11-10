@@ -124,8 +124,9 @@ Install required packages:
 - Integrate PCA-based dimensionality reduction for faster and more efficient image processing.
   
 ### 👨‍💻 Author
-**Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
+**Mohit Sharma(M25DE1001) and  Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
