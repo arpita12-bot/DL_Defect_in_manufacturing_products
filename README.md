@@ -70,8 +70,7 @@ This will:
 
 3. Save the model as `best_model.pth`  
 4. Generate a training plot `plot.png`
-<img width="900" height="330" alt="image" src="https://github.com/user-attachments/assets/7dc4d177-4bc1-4298-95b3-f75976f40300" />
-
+<img width="376" height="281" alt="image" src="https://github.com/user-attachments/assets/2be3754d-4772-4d88-a154-9165cd4aa4db" />
    
 
 ---
@@ -86,7 +85,7 @@ This will:
 - Start the image processing.
 - Detect defects using VGG like model on steel manufactured casted products.
 - Classify each detected product as **Ok** ✅ or **defected** ❌  and show accuracy report.
-<img width="376" height="281" alt="image" src="https://github.com/user-attachments/assets/2be3754d-4772-4d88-a154-9165cd4aa4db" />
+<img width="900" height="330" alt="image" src="https://github.com/user-attachments/assets/7dc4d177-4bc1-4298-95b3-f75976f40300" />
 
 
 
@@ -120,6 +119,7 @@ Install required packages:
 ### 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
