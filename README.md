@@ -61,33 +61,36 @@ We will break down into several steps:<br>
 ### 🚀 Training the Model
 Run the following command to train the model:
 ```bash
-python train_mask_detector.py --dataset dataset
+python train_model.py 
 ```
 This will:
 1. Load and preprocess the dataset  
-2. Train MobileNetV2 head layers  
-3. Save the model as `mask_detector.keras`  
+2. Train Simple CNN VGG-like model head layers  
+3. Save the model as `defect_detector_model.`  
 4. Generate a training plot `plot.png`  
 
 ---
 
 
-### ⭐ Real-Time Detection
+### ⭐ Defect Detection
 Once the model is trained, run:
 ```bash
-python detect_mask_video.py
+python evaluate.py
 ```
 This will:
-- Start the webcam feed  
-- Detect faces using OpenCV’s DNN-based face detector  
-- Classify each detected face as **Mask** 😷 or **No Mask** ❌  
+- Start the image processing
+- Detect defects using VGG like model on steel manufactured casted products
+- Classify each detected product as **Ok** ✅ or **defected** ❌  
 
-Press **'q'** to quit the video stream.
+
 ### 🧩 Dependencies
 Install required packages:
 ```bash
-pip install tensorflow==2.11.0
-pip install imutils scikit-learn matplotlib opencv-python
+!pip install torchsummary -q
+!pip install torcheval -q
+!pip install grad-cam -q
+!pip install imgaug
+!pip matplotlib
 ```
 ### 🧠 How It Works
 1. **Face Detection:** Uses OpenCV’s pretrained Caffe model (`deploy.prototxt` and `res10_300x300_ssd_iter_140000.caffemodel`) to locate faces.
@@ -96,7 +99,7 @@ pip install imutils scikit-learn matplotlib opencv-python
 
 ---
 ### ⚖️ Sample Results
-| With Mask | Without Mask |
+| With Defect | Without Defect |
 |------------|---------------|
 | ✅ 98.3% Accuracy | ❌ 97.1% Accuracy |
 
@@ -109,6 +112,7 @@ pip install imutils scikit-learn matplotlib opencv-python
 ### 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
