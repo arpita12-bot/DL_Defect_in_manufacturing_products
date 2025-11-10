@@ -9,15 +9,19 @@ This project aims to predict surface defects on steel sheets from images.
 * The primary aim is image classification, with a focus on:
 * Achieving high accuracy with a simple CNN model.
 * Balancing model complexity (parameters) and training time.
-1. What’s the simplest CNN model that can achieve high accuracy?
-   Initially considered models like ResNet models.
-   However, these models have millions of parameters (e.g., >20M), which is excessive for this dataset size.
+1. What’s the simplest CNN model that can achieve high accuracy?<br>
+   Initially considered models like ResNet models.<br>
+   However, these models have millions of parameters (e.g., >20M), which is excessive for this dataset size.<br>
    * A simpler CNN architecture can achieve comparable performance with much fewer parameters. So we use CNN model like VGG model.
-3. How to balance accuracy and the number of parameters?
-   The aim is to find a model that offers optimal performance while being computationally efficient.
-   Once a good model is found, explore reducing the number of parameters without a significant accuracy drop.
-   This helps understand the trade-off between model complexity and performance.
-4. 
+3. How to balance accuracy and the number of parameters?<br>
+   The aim is to find a model that offers optimal performance while being computationally efficient.<br>
+   Once a good model is found, explore reducing the number of parameters without a significant accuracy drop.<br>
+   This helps understand the trade-off between model complexity and performance.<br>
+
+The VGG-like CNN model is the best choice for this fault detection task because:<br>
+1. It achieves high accuracy with reasonable training time.<br>
+2. It follows the core design principles of VGG (using small 3×3 filters).<br>
+3. It is simpler, faster, and easier to train compared to complex architectures.
 ---
 
 ## ✅ Project description
@@ -101,6 +105,7 @@ pip install imutils scikit-learn matplotlib opencv-python
 ## 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
