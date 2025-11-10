@@ -27,9 +27,9 @@ The VGG-like CNN model is the best choice for this fault detection task because:
 1. It achieves high accuracy with reasonable training time.<br>
 2. It follows the core design principles of VGG (using small 3×3 filters).<br>
 3. It is simpler, faster, and easier to train compared to complex architectures.
----
 
 ### ✅ Project description
+---
 let us automate the inspection process by training top-view images of a casted steel manufacturing products using custom method with Convolutional Neural Network (CNN) so that it can distinguish accurately between defect from the ok one.<br>
 
 We will break down into several steps:<br>
@@ -66,7 +66,7 @@ python train_model.py
 This will:
 1. Load and preprocess the dataset  
 2. Train Simple CNN VGG-like model head layers  
-3. Save the model as `defect_detector_model.`  
+3. Save the model as `best_model.pth`  
 4. Generate a training plot `plot.png`  
 
 ---
@@ -112,6 +112,7 @@ Install required packages:
 ### 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
