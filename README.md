@@ -4,7 +4,7 @@ CASTING PRODUCT QUALITY INSPECTION:<br>
 
 Casting is a manufacturing process in which liquid material is poured into a mold to solidify. Many types of defects or unwanted irregularities can occur during this process. The industry has its quality inspection department to remove defective products from the production line, but this is very time consuming since it is carried out manually. Furthermore, there is a chance of misclassifying due to human error, causing rejection of the whole product order.<br>
 
-Use CNN(CONVOLUTIONAL NEURAL NETWORK) deep learning model to predict defects on steel sheets and visually localize the defect using VGG-like model.
+💻 Use CNN(CONVOLUTIONAL NEURAL NETWORK) deep learning model to predict defects on steel sheets and visually localize the defect using VGG-like model.
 
 ###  ✅ Overview
 ---
@@ -40,11 +40,11 @@ We will break down into several steps:<br>
 5. Make a conclusion
 
 
-## 📁 Project Structure
+### 📁 Project Structure
 ---
 <img width="526" height="320" alt="image" src="https://github.com/user-attachments/assets/f8f705ea-33d7-42ca-aafd-068d6311bd53" />
 
-## 🧠 Model Information
+### 🧠 Model Information
 ---
 - **Architecture:** Transfer Learning using MobileNetV2 (pre-trained on ImageNet)
 - **Frameworks:** TensorFlow, Keras, OpenCV
@@ -58,7 +58,7 @@ We will break down into several steps:<br>
 - **Batch Size:** 32
 
 
-## 🚀 Training the Model
+### 🚀 Training the Model
 Run the following command to train the model:
 ```bash
 python train_mask_detector.py --dataset dataset
@@ -72,7 +72,7 @@ This will:
 ---
 
 
-## ⭐ Real-Time Detection
+### ⭐ Real-Time Detection
 Once the model is trained, run:
 ```bash
 python detect_mask_video.py
@@ -83,32 +83,33 @@ This will:
 - Classify each detected face as **Mask** 😷 or **No Mask** ❌  
 
 Press **'q'** to quit the video stream.
-## 🧩 Dependencies
+### 🧩 Dependencies
 Install required packages:
 ```bash
 pip install tensorflow==2.11.0
 pip install imutils scikit-learn matplotlib opencv-python
 ```
-## 🧠 How It Works
+### 🧠 How It Works
 1. **Face Detection:** Uses OpenCV’s pretrained Caffe model (`deploy.prototxt` and `res10_300x300_ssd_iter_140000.caffemodel`) to locate faces.
 2. **Mask Classification:** Each detected face is resized to 224×224 and passed into the MobileNetV2-based CNN for classification.
 3. **Real-time Prediction:** Detected faces are highlighted in green (Mask) or red (No Mask) with confidence scores.
 
 ---
-## ⚖️ Sample Results
+### ⚖️ Sample Results
 | With Mask | Without Mask |
 |------------|---------------|
 | ✅ 98.3% Accuracy | ❌ 97.1% Accuracy |
 
 ---
-## 🚧 Future Improvements
+### 🚧 Future Improvements
 - Fine-tuning the MobileNetV2 base layers for higher accuracy.
 - Deploying the model to **Edge devices** or **Raspberry Pi**.
 - Integrating it with CCTV or live video monitoring systems.
 - 
-## 👨‍💻 Author
+### 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
