@@ -36,10 +36,9 @@ We will break down into several steps:<br>
 3. Training with validation: define the architecture, compile the model, model fitting and evaluation
 4. Testing on unseen images
 5. Make a conclusion
----
+
 
 ## 📁 Project Structure
----
 <img width="526" height="320" alt="image" src="https://github.com/user-attachments/assets/f8f705ea-33d7-42ca-aafd-068d6311bd53" />
 
 ## 🧠 Model Information
@@ -107,6 +106,7 @@ pip install imutils scikit-learn matplotlib opencv-python
 ## 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
