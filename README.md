@@ -93,9 +93,9 @@ Install required packages:
 !pip matplotlib
 ```
 ### 🧠 How It Works
-1. **Face Detection:** Uses OpenCV’s pretrained Caffe model (`deploy.prototxt` and `res10_300x300_ssd_iter_140000.caffemodel`) to locate faces.
-2. **Mask Classification:** Each detected face is resized to 224×224 and passed into the MobileNetV2-based CNN for classification.
-3. **Real-time Prediction:** Detected faces are highlighted in green (Mask) or red (No Mask) with confidence scores.
+1. **Defect Detection:** Uses a pre-trained CNN-based model (VGG like model) to detect regions on steel surfaces that may contain defects such as cracks, scratches, inclusions, or dents. The model scans the input image frame-by-frame or from stored samples.
+2. **Defect Classification:** The model classifies each region into categories like “Defective” or “Non-Defective”, or further into defect types (e.g., Crack, Scratch, Burr, Hole).
+3. **Real-time Prediction:** The system performs real-time analysis on imagesfrom the production line. we visualize the results by comparing its true label with the predicted label and also provide the probability of each image being on the predicted class. A blue color on the text indicates that our model correctly classify the image, otherwise red color is used.
 
 ---
 ### ⚖️ Sample Results
@@ -112,6 +112,7 @@ Install required packages:
 ### 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
