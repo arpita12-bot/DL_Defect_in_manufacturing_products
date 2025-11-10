@@ -1,8 +1,8 @@
-﻿#  Detect-in-manufacturing-products-from-images
+﻿#  🎯 Detect-in-manufacturing-products-from-images
 
 Use CNN(CONVOLUTIONAL NEURAL NETWORK) deep learning model to predict defects on steel sheets and visually localize the defect using VGG-like model.
 
-##  Overview
+##  ✅ Overview
 This project aims to predict surface defects on steel sheets from images.
 * The goal is to build a deep learning model to detect casting faults using an image dataset from Kaggle.
 * The dataset contains ~10,500 images divided into two classes — faulty and okay parts.
@@ -20,7 +20,7 @@ This project aims to predict surface defects on steel sheets from images.
 4. 
 ---
 
-## Project description
+## ✅ Project description
 
 ---
 
@@ -64,7 +64,7 @@ This will:
 ---
 
 
-## 🎥 Real-Time Detection
+## ⭐ Real-Time Detection
 Once the model is trained, run:
 ```bash
 python detect_mask_video.py
@@ -87,13 +87,13 @@ pip install imutils scikit-learn matplotlib opencv-python
 3. **Real-time Prediction:** Detected faces are highlighted in green (Mask) or red (No Mask) with confidence scores.
 
 ---
-## 📊 Sample Results
+## ⚖️ Sample Results
 | With Mask | Without Mask |
 |------------|---------------|
 | ✅ 98.3% Accuracy | ❌ 97.1% Accuracy |
 
 ---
-## 🏁 Future Improvements
+## 🚧 Future Improvements
 - Fine-tuning the MobileNetV2 base layers for higher accuracy.
 - Deploying the model to **Edge devices** or **Raspberry Pi**.
 - Integrating it with CCTV or live video monitoring systems.
@@ -101,5 +101,6 @@ pip install imutils scikit-learn matplotlib opencv-python
 ## 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
