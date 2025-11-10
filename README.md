@@ -27,6 +27,8 @@ The VGG-like CNN model is the best choice for this fault detection task because:
 1. It achieves high accuracy with reasonable training time.<br>
 2. It follows the core design principles of VGG (using small 3×3 filters).<br>
 3. It is simpler, faster, and easier to train compared to complex architectures.
+<img width="226" height="102" alt="image" src="https://github.com/user-attachments/assets/4ea42f29-ba42-4ce6-939a-48b9ddbe2e82" />
+
 
 ### ✅ Project description
 ---
@@ -56,6 +58,7 @@ We will break down into several steps:<br>
 - **Optimizer:** Adam (`learning_rate=1e-4`)
 - **Epochs:** 20  
 - **Batch Size:** 16
+<img width="341" height="247" alt="image" src="https://github.com/user-attachments/assets/3c375151-2396-41f7-9555-8506273b8482" />
 
 
 ### 🚀 Training the Model
@@ -119,6 +122,7 @@ Install required packages:
 ### 👨‍💻 Author
 **Mohit Sharma(M25DE1001), Arpita Kundu(M25DE1004)**  
 _MTech Data Engineering, IIT Jodhpur_  
+
 
 
 
